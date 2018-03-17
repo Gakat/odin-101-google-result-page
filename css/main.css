@@ -95,3 +95,85 @@ body {
 #configure {
   float: right;
 }
+
+.results-block {
+  margin-left: 150px;
+  padding-left: 16px;
+}
+
+.summary span {
+  color: #808080;
+  font-size: 13px;
+  /* margin-left: 16px; */
+  line-height: 43px;
+}
+
+.results-list li {
+  width: 600px;
+  padding-bottom: 26px;
+}
+
+.results-list a {
+  color: #1a0dab;
+  text-decoration: none;
+  font-size: 18px;
+  line-height: 1.2;
+}
+
+.results-list a:hover {
+  text-decoration: underline;
+}
+
+.results-list a:visited {
+  color: #609;
+}
+
+.results-list li cite {
+  display: block;
+  color: #006621;
+  font-size: 14px;
+  line-height: 16px;
+}
+
+.results-list li p {
+  font-size: 13px;
+  font-weight: 400;
+  color: #545454;
+  line-height: 1.4;
+}
+
+.nav {
+  width: 600px;
+}
+
+.nav table {
+  border-collapse: collapse;
+  text-align: left;
+  margin: 30px auto 30px;
+  font-size: 13px;
+}
+
+.nav table tbody {
+  display: table-row-group;
+}
+
+.nav td {
+  text-align: center;
+}
+
+.csb {
+  display: block;
+  height: 40px;
+  background: url(../media/nav_logo242.png) no-repeat;
+}
+
+.nav a {
+  color: #4285f4;
+  font-size: 13px;
+  display: block;
+  text-decoration: none;
+}
+
+.nav a:hover {
+  text-decoration: underline;
+}
