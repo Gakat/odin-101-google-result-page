@@ -108,6 +108,10 @@ body {
   line-height: 43px;
 }
 
+.results {
+  margin-top: 20px;
+}
+
 .results-list li {
   width: 600px;
   padding-bottom: 26px;
@@ -176,4 +180,62 @@ body {
 
 .nav a:hover {
   text-decoration: underline;
+}
+
+.footer {
+  height: 82px;
+  background: #f2f2f2;
+  border-top: 1px solid #e4e4e4;
+}
+
+.footer-line {
+  vertical-align: middle;
+  line-height: 40px;
+}
+
+.adress-line {
+  border-bottom: 1px solid #e4e4e4;
+  padding-left: 165px;
+}
+
+#country {
+  font-size: 15px;
+  color: rgba(0,0,0,.54);
+}
+
+#vertical-line {
+  border-left: 1px solid #e4e4e4;
+  margin-left: 13px;
+  padding-left: 16px;
+  line-height: 15px;
+}
+
+#loc {
+  /* border-left: 1px solid #e4e4e4; */
+  background: #9e9e9e;
+  border-radius: 100%;
+  display: inline-block;
+  height: 10px;
+  margin: 6px 6px 9px 0;
+  vertical-align: middle;
+  width: 10px;
+}
+
+#street,#source,#dash {
+  color: #aaa;
+  font-size: 13px;
+}
+
+.footer-line {
+  padding-left: 165px;
+}
+
+.adress a, .footer-line a {
+  color: #777;
+  text-decoration: none;
+  font-size: 13px;
+}
+
+.adress a:hover, .footer-line a:hover {
+  color: #333;
 }
